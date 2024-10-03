@@ -1,0 +1,436 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans:600&display=swap");
+
+html {
+    font-family: 'Roboto';
+    overflow: hidden;
+}
+
+.header,
+.subheader,
+.filterbar {
+    width: 1300px;
+    height: 65px;
+    padding: 0px, 0px, 0px, 0px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-style: solid;
+    border-color: #E0E0E0;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.headernav,
+.subheadernav,
+#filter {
+    margin-left: 10px;
+}
+
+.headernav {
+    display: flex;
+    gap: 13px;
+}
+
+#bar {
+    cursor: pointer;
+    width: 18px;
+    height: 12px;
+    margin-top: 14px;
+
+}
+
+#icon {
+    top: 0.2px;
+    left: 5.31px;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+
+}
+
+.divider {
+    border: 1px;
+}
+
+.headermenu {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.icon {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    border: 1px solid #E0E0E0;
+
+}
+
+#settings {
+    margin-top: 10px;
+    width: 24px;
+    height: 24px;
+
+}
+
+.subheader {
+    background-color: #FFFFFF;
+}
+
+.subheadernav {
+    display: flex;
+    gap: 10px;
+}
+
+#search {
+    height: 24px;
+    width: 432px;
+    background-color: #E0E0E0;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px;
+    padding: 12px 12px 12px 55px;
+}
+
+.search {
+    position: relative;
+}
+
+#searchsymbol {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+
+#category {
+    position: relative;
+}
+
+#coinsymbol {
+    position: absolute;
+    margin-top: -33px;
+    margin-left: 70px;
+}
+
+select {
+    width: 152px;
+    height: 51px;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    padding: 7px 10px 7px 10px;
+}
+
+option {
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+
+.menu {
+    margin-left: auto;
+    display: flex;
+    gap: 30px;
+}
+
+.filterbar {
+    background-color: #FFFFFF;
+}
+
+.producttable {
+    overflow: auto;
+    Height: 450px;
+}
+
+table {
+    font-family: 'Roboto';
+    font-size: 14px;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td,
+tr {
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-style: solid;
+    border-color: #E0E0E0;
+}
+
+th {
+    background-color: #FFFFFF;
+    font-size: 12px;
+    position: sticky;
+    top: 0;
+}
+
+th,
+td {
+    width: 282px;
+    padding: 10px;
+    text-align: left;
+}
+
+td:nth-child(1),
+th:nth-child(1) {
+    width: auto;
+}
+
+td:nth-child(2),
+th:nth-child(2) {
+    width: auto;
+}
+
+td:nth-child(4),
+th:nth-child(4) {
+    width: auto;
+}
+
+td:nth-child(5),
+th:nth-child(5) {
+    width: auto;
+}
+
+tr:hover {
+    background-color: #D6EEEE;
+}
+
+.vertical {
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 3px;
+    border-left: 6px solid #FBBC05;
+    height: 40px;
+    width: 6px;
+
+}
+
+.vertical1 {
+    position: relative;
+}
+
+.line1 {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 3px;
+    border-left: 6px solid #FBBC05;
+    height: 40px;
+    width: 6px;
+}
+
+#status {
+    position: sticky;
+    bottom: 0;
+    font-family: 'Roboto';
+    font-size: 14px;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+.table {
+    position: relative;
+}
+
+.sidepanel {
+    position: absolute;
+    Width: 433px;
+    Height: 580px;
+    Top: 137px;
+    Left: auto;
+    right: 0;
+    font-family: 'Roboto';
+    font-size: 14px;
+    overflow-x: scroll;
+    Border: 0px 0px 0px 1px;
+    border: 1px solid #E0E0E0;
+    background-color: #FFFFFF;
+}
+
+.windowbar {
+    background-color: #FFFFFF;
+    position: sticky;
+    top: 20px;
+}
+
+.windowbar {
+    font-size: 17px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.minimaxbar {
+    margin-left: auto;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 12.2px;
+}
+
+ul li:hover {
+    background-color: #F9F9F9;
+}
+
+ul {
+    border: 0px 0px 1px 0px;
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+ul li:hover {
+    border-bottom: 4px solid #1968D2;
+}
+
+.container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.container input {
+    padding: 15px 0px 15px 10px;
+    border: 1px solid #79747E;
+    border-radius: 4px;
+    width: 380px;
+    height: 15px;
+    margin-left: 15px;
+}
+
+label {
+    position: absolute;
+    width: fit-content;
+    height: 16px;
+    margin-top: -5px;
+    left: 30px;
+    background-color: #FFFFFF;
+    padding: 0 5px;
+    color: black;
+}
+
+span {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 37px;
+    font-size: 13px;
+    text-align: right;
+}
+
+.footer {
+    display: flex;
+    position: fixed;
+    gap: 115px;
+    right: 0;
+    bottom: 0px;
+    background-color: #FFFFFF;
+}
+
+.option {
+    display: flex;
+    gap: 10px;
+}
+
+.toggle {
+    display: flex;
+    margin-left: auto;
+    margin-right: 37px;
+}
+
+#save,
+#cancel,
+.active {
+    width: 52px;
+    height: 36px;
+}
+
+#save {
+    background-color: #1A73E8;
+    border-color: #1A73E8;
+    color: #FFFFFF;
+}
+
+#cancel,
+.active {
+    background-color: #FFFFFF;
+    border: #FFFFFF;
+    color: #1A73E8;
+}
+
+.active {
+    color: black;
+}
+
+button {
+    border: none;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-right: 40px;
+    border-radius: 34px;
+    background-color: #0F9D58;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+}
+
+input:checked+.slider {
+    background-color: #ccc;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #ccc;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
